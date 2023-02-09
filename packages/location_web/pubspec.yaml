@@ -16,7 +16,9 @@ dependencies:
   js: ^0.6.3
   location_platform_interface:
     git:
-      url: https://github.com/byeblogs/flutterlocation/tree/4.4.1/packages/location_platform_interface
+      url: https://github.com/byeblogs/flutterlocation
+      ref: 4.4.1
+      path: packages/location_platform_interface
   meta: ^1.3.0
 
 dev_dependencies:
