@@ -23,8 +23,12 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  location_platform_interface: ^2.3.0
-  location_web: ^3.1.1
+  location_platform_interface: 
+    git:
+      url: https://github.com/byeblogs/flutterlocation/tree/4.4.1/packages/location_platform_interface
+  location_web:
+    git:
+      url: https://github.com/byeblogs/flutterlocation/tree/4.4.1/packages/location_web
 dev_dependencies:
   async: ^2.5.0
   build_runner: ^1.11.5

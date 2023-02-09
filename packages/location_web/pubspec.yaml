@@ -14,7 +14,9 @@ dependencies:
     sdk: flutter
   http_parser: ^4.0.0
   js: ^0.6.3
-  location_platform_interface: ^2.3.0
+  location_platform_interface:
+    git:
+      url: https://github.com/byeblogs/flutterlocation/tree/4.4.1/packages/location_platform_interface
   meta: ^1.3.0
 
 dev_dependencies:
